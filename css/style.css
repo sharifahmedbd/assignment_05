@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+.align-center{
+	align-items: center;
+}
+
+
+body{
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.header-section{
+    background-color: #FCDB00;
+    padding: 50px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 24px;
+    color: #010101;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    padding: 0 15px;
+    font-weight: 700;
+}
+nav ul li a:hover{}
+
+.slider-content{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-right: 50px;
+  }
+.slider-content h1{    
+	font-size: 32px;
+}
+.slider-content h3{
+    font-weight: 100;
+    color: #444;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.slider-content p{
+    font-size: 16px;
+    color: #555;
+}
+ul.brand-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.brand-list li{
+    font-size: 45px;
+    padding: 25px 40px 0 0;
+    list-style: none;
+}
+ul.brand-list li a{}
+ul.brand-list li a:hover{}
+
+.slider-img{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-left: 180px;
+    margin-top: 50px;
+}
+.slider-img img{max-width: 100%;}
+
+.bullet-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.bullet-list li{
+    list-style: none;
+    padding: 4px;
+}
+.bullet-list li a{
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #ffffffa3;
+    border-radius: 50%;
+}
+.bullet-list li a:hover{
+    background: #fff;
+}
+
+.features-section{
+    padding: 100px 0;
+}
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1{
+    font-size: 32px;
+}
+.header p{
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+    font-weight: 500;
+}
+.col{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.feature-icon{
+    flex-basis: 20%;
+    max-width: 20%;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+.feature-icon i{
+}
+.feature-content{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+.feature-content h2{
+    color: #444;
+    font-weight: 100;
+}
+.feature-content p{
+	color: #969696;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+
+.footer-section{
+    padding: 100px 0;
+    background: #000;
+}
+.subscription-form{
+    text-align: center;
+}
+.subscription-form h1{
+    font-size: 35px;
+    color: #FCDB00;
+}
+.subscription-form p{
+    color: #ababab;
+    font-size: 20px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+form {
+    padding: 50px 0;
+    max-width: 800px;
+    margin: auto;
+}
+form .input{
+    flex-basis: 80%;
+    max-width: 80%;
+    padding: 0 5px;
+}
+form .input input{
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+}
+form .submit{
+    flex-basis: 20%;
+    max-width: 20%;
+    padding: 0 5px;
+}
+form .submit input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #FCDB00;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+form .submit input:hover{
+    background: transparent;
+    border: 1px solid #FCDB00;
+    color: #FCDB00;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.social-link li{
+    list-style: none;
+    padding: 14px;
+}
+.social-link li a{
+    background: #FCDB00;
+    color: #000;
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    line-height: 35px;
+}
+.social-link li a:hover{}
+
+.address{
+    max-width: 30%;
+    flex-basis: 30%;
+}
+.address address{
+	color: #ffffffba;
+	font-style: initial;
+	font-size: 16px;
+}
+.footer-col{
+    max-width: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+.footer-col ul{}
+.footer-col ul li{
+    list-style: none;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: #ffffff87;
+    font-size: 18px;
+}
+.footer-col ul li a:hover{
+    color: #fcdb00;
+}
+
+
+
+
